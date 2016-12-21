@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:flvc="info:flvc/manifest/v1" xsi:schemaLocation="http://www.loc.gov/standards/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd" version="3.4">
+  <titleInfo lang="eng">
+    <title>Gutzwiller renormalization group</title>
+  </titleInfo>
+  <name type="personal" authority="local">
+    <namePart type="given">Nicola</namePart>
+    <namePart type="family">Lanata</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Yong-Xin</namePart>
+    <namePart type="family">Yao</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Xiaoyu</namePart>
+    <namePart type="family">Deng</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Cai-Zhuang</namePart>
+    <namePart type="family">Wang</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Kai-Ming</namePart>
+    <namePart type="family">Ho</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Gabriel</namePart>
+    <namePart type="family">Kotliar</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2016-01-06</dateIssued>
+  </originInfo>
+  <abstract>We develop a variational scheme called the "Gutzwiller renormalization group" (GRG), which enables us to calculate the ground state of Anderson impurity models (AIM) with arbitrary numerical precision. Our method exploits the low-entanglement property of the ground state of local Hamiltonians in combination with the framework of the Gutzwiller wave function and indicates that the ground state of the AIM has a very simple structure, which can be represented very accurately in terms of a surprisingly small number of variational parameters. We perform benchmark calculations of the single-band AIM that validate our theory and suggest that the GRG might enable us to study complex systems beyond the reach of the other methods presently available and pave the way to interesting generalizations, e.g., to nonequilibrium transport in nanostructures.</abstract>
+  <identifier type="IID">FSU_libsubv1_wos_000367665400002</identifier>
+  <identifier type="DOI">10.1103/PhysRevB.93.045103</identifier>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Physical Review B</title>
+    </titleInfo>
+    <identifier type="issn">1098-0121</identifier>
+    <part>
+      <detail type="volume">
+        <number>93</number>
+        <caption>vol.</caption>
+      </detail>
+      <detail type="issue">
+        <number>4</number>
+        <caption>iss.</caption>
+      </detail>
+      <extent unit="page">
+        <start>45103</start>
+      </extent>
+    </part>
+  </relatedItem>
+  <note displayLabel="Keywords">ferromagnetism, kondo problem, model, quantum, systems, transition-metals</note>
+  <note displayLabel="Publication Note">The publisher&#x2019;s version of record is available at http://www.dx.doi.org/10.1103/PhysRevB.93.045103</note>
+  <extension>
+    <flvc:flvc>
+      <flvc:owningInstitution>FSU</flvc:owningInstitution>
+      <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+    </flvc:flvc>
+  </extension>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="rdacontent">text</genre>
+  <language>
+    <languageTerm type="text">English</languageTerm>
+    <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form authority="rdamedia" type="RDA media terms">computer</form>
+    <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+    <extent>1 online resource</extent>
+    <digitalOrigin>born digital</digitalOrigin>
+    <internetMediaType>application/pdf</internetMediaType>
+  </physicalDescription>
+  <recordInfo>
+    <recordCreationDate encoding="w3cdtf">2016-12-21</recordCreationDate>
+    <descriptionStandard>rda</descriptionStandard>
+  </recordInfo>
+</mods>

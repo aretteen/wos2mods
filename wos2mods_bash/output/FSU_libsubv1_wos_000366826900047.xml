@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:flvc="info:flvc/manifest/v1" xsi:schemaLocation="http://www.loc.gov/standards/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd" version="3.4">
+  <titleInfo lang="eng">
+    <nonsort>A</nonsort>
+    <title>A flexible iron(II) complex in which zero-field splitting is resistant to structural variation</title>
+  </titleInfo>
+  <name type="personal" authority="local">
+    <namePart type="given">Joseph M.</namePart>
+    <namePart type="family">Zadrozny</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Samuel M.</namePart>
+    <namePart type="family">Greer</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Stephen</namePart>
+    <namePart type="family">Hill</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Danna E.</namePart>
+    <namePart type="family">Freedman</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
+  </originInfo>
+  <abstract>The relationship between electronic structure and zero-field splitting dictates key design parameters for magnetic molecules. In particular, to enable the directed synthesis of new electronic spin based qubits, developing complexes where zero-field splitting energies are invariant to structural changes is a critical challenge. Toward those ends, we report three salts of a new compound, a four-coordinate iron(II) complex [ Fe(C3S5)(2)](2-) ([(18-crown-6) K](+) (1), Ph4P+ (2), Bu4N+ (3)) with a continuous structural variation in a single parameter, the dihedral angle (theta(d)) between the two C3S52- ligands, as a function of counterion (theta(d) = 89.98(4)degrees for 1 to 72.41(2)degrees for 3). Electron paramagnetic resonance data for 1-3 reveal zero-field splitting parameters that are unusually robust to the structural variation. Mossbauer spectroscopic measurements indicate that the structural variation in theta(d) primarily affects the highest-energy 3d-orbitals (d(xz) and d(yz)) of the iron(II) ion. These orbitals have the smallest impact on the zero-field splitting parameters, thus the distortion has a minor effect on D and E. These results represent the first part of a directed effort to understand how spin state energies may be fortified against structural distortions for future applications of qubits in non-crystalline environments.</abstract>
+  <identifier type="IID">FSU_libsubv1_wos_000366826900047</identifier>
+  <identifier type="DOI">10.1039/c5sc02477c</identifier>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Chemical Science</title>
+    </titleInfo>
+    <identifier type="issn">2041-6520</identifier>
+    <part>
+      <detail type="volume">
+        <number>7</number>
+        <caption>vol.</caption>
+      </detail>
+      <detail type="issue">
+        <number>1</number>
+        <caption>iss.</caption>
+      </detail>
+      <extent unit="page">
+        <start>416</start>
+        <end>423</end>
+      </extent>
+    </part>
+  </relatedItem>
+  <note displayLabel="Keywords">coordination-complexes, crystal-structures, electron-paramagnetic-resonance, high-frequency   epr, pyrrolide complexes, quantum computation, reduced rubredoxin, Single-molecule magnets, spin-hamiltonian parameters, transition-metal-complexes</note>
+  <note displayLabel="Publication Note">The publisher&#x2019;s version of record is available at http://www.dx.doi.org/10.1039/c5sc02477c</note>
+  <extension>
+    <flvc:flvc>
+      <flvc:owningInstitution>FSU</flvc:owningInstitution>
+      <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+    </flvc:flvc>
+  </extension>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="rdacontent">text</genre>
+  <language>
+    <languageTerm type="text">English</languageTerm>
+    <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form authority="rdamedia" type="RDA media terms">computer</form>
+    <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+    <extent>1 online resource</extent>
+    <digitalOrigin>born digital</digitalOrigin>
+    <internetMediaType>application/pdf</internetMediaType>
+  </physicalDescription>
+  <recordInfo>
+    <recordCreationDate encoding="w3cdtf">2016-12-21</recordCreationDate>
+    <descriptionStandard>rda</descriptionStandard>
+  </recordInfo>
+</mods>

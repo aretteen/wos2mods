@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:flvc="info:flvc/manifest/v1" xsi:schemaLocation="http://www.loc.gov/standards/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd" version="3.4">
+  <titleInfo lang="eng">
+    <title>Green turtle Chelonia mydas foraging ecology at 25 degrees S in the western Atlantic</title>
+    <subtitle> evidence to support a feeding model driven by intrinsic and extrinsic variability</subtitle>
+  </titleInfo>
+  <name type="personal" authority="local">
+    <namePart type="given">Luciana R.</namePart>
+    <namePart type="family">Gama</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Camila</namePart>
+    <namePart type="family">Domit</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Matt K.</namePart>
+    <namePart type="family">Broadhurst</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Mariana M. P. B.</namePart>
+    <namePart type="family">Fuentes</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Russell B.</namePart>
+    <namePart type="family">Millar</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2016-01-19</dateIssued>
+  </originInfo>
+  <abstract>Long-term temporal variation in juvenile Chelonia mydas foraging ecology and key intrinsic/extrinsic explanatory factors were assessed at the southwestern Atlantic tropical-temperate transition zone. During a 7 yr period, 120 stranded C. mydas (30 to 62 cm curved carapace length; CCL) were collected from beaches in Parana, adjacent to the World Heritage listed Paranagua estuarine complex (PEC). The digestive tracts of these specimens were excised and evaluated for dietary contents and morphology. A total of 12 items/groups were found, but mainly comprised Ulva sp. (43% of specimens), Sargassum sp. (28%), Halodule wrightii (26%), Avicennia schaueriana (26%), Gracilaria domingensis (22%), unidentified angiosperms (21%) and cephalopod beaks (8%). Nearly 70% of all C. mydas had ingested marine debris. Proportionally more items occurred in the stomach, followed by the intestines and oesophagus. Canonical analysis of principal coordinates revealed several trends, including a negative relationship between CCL and cephalopod consumption, and strong short-and long-term temporal associations with different herbivorous foods. The latter manifested as (1) more H. wrightii consumed during the wet season, and other species (but especially A. schaueriana and Sargassum sp.) during the dry; and (2) a diet change between 2008-2010 and 2012-2014, with a shift towards Ulva sp. in the latter period (particularly in 2013). The observed extrinsic variation was attributed to environmental perturbations associated with El Nino, and anthropogenic impacts associated with dredging that started in 2010 in the PEC and which affected foraging habitats. The results reaffirm the foraging variability of C. mydas, but also demonstrate that sufficient time-series data are required to adequately describe the ecology of the species as a precursor to management actions that conserve regional populations.</abstract>
+  <identifier type="IID">FSU_libsubv1_wos_000368922900016</identifier>
+  <identifier type="DOI">10.3354/meps11576</identifier>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Marine Ecology Progress Series</title>
+    </titleInfo>
+    <identifier type="issn">0171-8630</identifier>
+    <part>
+      <detail type="volume">
+        <number>542</number>
+        <caption>vol.</caption>
+      </detail>
+      <extent unit="page">
+        <start>209</start>
+        <end>219</end>
+      </extent>
+    </part>
+  </relatedItem>
+  <note displayLabel="Keywords">Australia, Brazil, california, Chelonia mydas, Conservation, diet, Foraging, habitat use, halodule-wrightii, Life history, pacific, paranagua   bay, seagrasses, sea-turtles, southern brazil</note>
+  <note displayLabel="Publication Note">The publisher&#x2019;s version of record is available at http://www.dx.doi.org/10.3354/meps11576</note>
+  <extension>
+    <flvc:flvc>
+      <flvc:owningInstitution>FSU</flvc:owningInstitution>
+      <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+    </flvc:flvc>
+  </extension>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="rdacontent">text</genre>
+  <language>
+    <languageTerm type="text">English</languageTerm>
+    <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form authority="rdamedia" type="RDA media terms">computer</form>
+    <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+    <extent>1 online resource</extent>
+    <digitalOrigin>born digital</digitalOrigin>
+    <internetMediaType>application/pdf</internetMediaType>
+  </physicalDescription>
+  <recordInfo>
+    <recordCreationDate encoding="w3cdtf">2016-12-21</recordCreationDate>
+    <descriptionStandard>rda</descriptionStandard>
+  </recordInfo>
+</mods>

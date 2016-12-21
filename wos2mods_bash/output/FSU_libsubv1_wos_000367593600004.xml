@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:flvc="info:flvc/manifest/v1" xsi:schemaLocation="http://www.loc.gov/standards/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd" version="3.4">
+  <titleInfo lang="eng">
+    <title>Synthesizing the Effect of Building Condition Quality on Academic Performance</title>
+  </titleInfo>
+  <name type="personal" authority="local">
+    <namePart type="given">Tracey</namePart>
+    <namePart type="family">Gunter</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Jing</namePart>
+    <namePart type="family">Shao</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
+  </originInfo>
+  <abstract>Since the late 1970s, researchers have examined the relationship between school building condition and student performance. Though many literature reviews have claimed that a relationship exists, no meta-analysis has quantitatively examined this literature. The purpose of this review was to synthesize the existing literature on the relationship between building condition and student performance. Means for the semi-partial ((r) over bar = 0.12) correlations were relatively small but significantly different, supporting the claim that school building condition is related to student performance. Furthermore, results revealed that the magnitude of the correlation varied as a function of a number of moderator variables. For instance, the building condition feature measured, instrument type, subject area measured, and grade level affect the association between school building condition and student performance. Our findings offer useful information for educational leaders, policy makers, and researchers.</abstract>
+  <identifier type="IID">FSU_libsubv1_wos_000367593600004</identifier>
+  <identifier type="DOI">10.1162/EDFP_a_00181</identifier>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Education Finance and Policy</title>
+    </titleInfo>
+    <identifier type="issn">1557-3060</identifier>
+    <part>
+      <detail type="volume">
+        <number>11</number>
+        <caption>vol.</caption>
+      </detail>
+      <detail type="issue">
+        <number>1</number>
+        <caption>iss.</caption>
+      </detail>
+      <extent unit="page">
+        <start>97</start>
+        <end>123</end>
+      </extent>
+    </part>
+  </relatedItem>
+  <note displayLabel="Keywords">attendance, metaanalysis, Parental involvement, school, student-achievement</note>
+  <note displayLabel="Publication Note">The publisher&#x2019;s version of record is available at http://www.dx.doi.org/10.1162/EDFP_a_00181</note>
+  <extension>
+    <flvc:flvc>
+      <flvc:owningInstitution>FSU</flvc:owningInstitution>
+      <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+    </flvc:flvc>
+  </extension>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="rdacontent">text</genre>
+  <language>
+    <languageTerm type="text">English</languageTerm>
+    <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form authority="rdamedia" type="RDA media terms">computer</form>
+    <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+    <extent>1 online resource</extent>
+    <digitalOrigin>born digital</digitalOrigin>
+    <internetMediaType>application/pdf</internetMediaType>
+  </physicalDescription>
+  <recordInfo>
+    <recordCreationDate encoding="w3cdtf">2016-12-21</recordCreationDate>
+    <descriptionStandard>rda</descriptionStandard>
+  </recordInfo>
+</mods>

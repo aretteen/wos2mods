@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:flvc="info:flvc/manifest/v1" xsi:schemaLocation="http://www.loc.gov/standards/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd" version="3.4">
+  <titleInfo lang="eng">
+    <title>Nuclear mass predictions for the crustal composition of neutron stars</title>
+    <subtitle> A Bayesian neural network approach</subtitle>
+  </titleInfo>
+  <name type="personal" authority="local">
+    <namePart type="given">R.</namePart>
+    <namePart type="family">Utama</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">J.</namePart>
+    <namePart type="family">Piekarewicz</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">H. B.</namePart>
+    <namePart type="family">Prosper</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2016-01-20</dateIssued>
+  </originInfo>
+  <abstract>Background: Besides their intrinsic nuclear-structure value, nuclear mass models are essential for astrophysical applications, such as r-process nucleosynthesis and neutron-star structure. Purpose: To overcome the intrinsic limitations of existing "state-of-the-art" mass models through a refinement based on a Bayesian neural network (BNN) formalism. Methods: A novel BNN approach is implemented with the goal of optimizing mass residuals between theory and experiment. Results: A significant improvement (of about 40%) in the mass predictions of existing models is obtained after BNN refinement. Moreover, these improved results are now accompanied by proper statistical errors. Finally, by constructing a "world average" of these predictions, a mass model is obtained that is used to predict the composition of the outer crust of a neutron star. Conclusions: The power of the Bayesian neural network method has been successfully demonstrated by a systematic improvement in the accuracy of the predictions of nuclear masses. Extension to other nuclear observables is a natural next step that is currently under investigation.</abstract>
+  <identifier type="IID">FSU_libsubv1_wos_000368514400002</identifier>
+  <identifier type="DOI">10.1103/PhysRevC.93.014311</identifier>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Physical Review C</title>
+    </titleInfo>
+    <identifier type="issn">0556-2813</identifier>
+    <part>
+      <detail type="volume">
+        <number>93</number>
+        <caption>vol.</caption>
+      </detail>
+      <detail type="issue">
+        <number>1</number>
+        <caption>iss.</caption>
+      </detail>
+      <extent unit="page">
+        <start>14311</start>
+      </extent>
+    </part>
+  </relatedItem>
+  <note displayLabel="Keywords">energies, equation, ground-state, matter, models, stability, Systematics</note>
+  <note displayLabel="Publication Note">The publisher&#x2019;s version of record is available at http://www.dx.doi.org/10.1103/PhysRevC.93.014311</note>
+  <extension>
+    <flvc:flvc>
+      <flvc:owningInstitution>FSU</flvc:owningInstitution>
+      <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+    </flvc:flvc>
+  </extension>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="rdacontent">text</genre>
+  <language>
+    <languageTerm type="text">English</languageTerm>
+    <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form authority="rdamedia" type="RDA media terms">computer</form>
+    <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+    <extent>1 online resource</extent>
+    <digitalOrigin>born digital</digitalOrigin>
+    <internetMediaType>application/pdf</internetMediaType>
+  </physicalDescription>
+  <recordInfo>
+    <recordCreationDate encoding="w3cdtf">2016-12-21</recordCreationDate>
+    <descriptionStandard>rda</descriptionStandard>
+  </recordInfo>
+</mods>

@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:flvc="info:flvc/manifest/v1" xsi:schemaLocation="http://www.loc.gov/standards/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd" version="3.4">
+  <titleInfo lang="eng">
+    <title>Behavioral Evidence for More than One Taste Signaling Pathway for Sugars in Rats</title>
+  </titleInfo>
+  <name type="personal" authority="local">
+    <namePart type="given">Lindsey A.</namePart>
+    <namePart type="family">Schier</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Alan C.</namePart>
+    <namePart type="family">Spector</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2016-01-06</dateIssued>
+  </originInfo>
+  <abstract>By conventional behavioral measures, rodents respond to natural sugars, such as glucose and fructose, as though they elicit an identical perceptual taste quality. Beyond that, the metabolic and sensory effects of these two sugars are quite different. Considering the capacity to immediately respond to the more metabolically expedient sugar, glucose, would seem advantageous for energy intake, the present experiment assessed whether experience consuming these two sugars would modify taste-guided ingestive responses to their yet unknown distinguishing orosensory properties. One group (GvF) had randomized access to three concentrations of glucose and fructose (0.316, 0.56, 1.1 M) in separate 30-min single access training sessions, whereas control groups received equivalent exposure to the three glucose or fructose concentrations only, or remained sugar naive. Comparison of the microstructural licking patterns for the two sugars revealed that GvF responded more positively to glucose (increased total intake, increased burst size, decreased number of pauses), relative to fructose, across training. As training progressed, GvF rats began to respond more positively to glucose in the first minute of the session when intake is principally taste-driven. During post-training brief-access taste tests, GvF rats licked more for glucose than for fructose, whereas the other training groups did not respond differentially to the two sugars. Additional brief access testing showed that this did not generalize to Na-saccharin or galactose. Thus, in addition to eliciting a common taste signal, glucose and fructose produce distinct signals that are apparently rendered behaviorally relevant and hedonically distinct through experience. The taste pathway(s) underlying this remain to be identified.</abstract>
+  <identifier type="IID">FSU_libsubv1_wos_000368348100014</identifier>
+  <identifier type="DOI">10.1523/JNEUROSCI.3356-15.2016</identifier>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Journal of Neuroscience</title>
+    </titleInfo>
+    <identifier type="issn">0270-6474</identifier>
+    <part>
+      <detail type="volume">
+        <number>36</number>
+        <caption>vol.</caption>
+      </detail>
+      <detail type="issue">
+        <number>1</number>
+        <caption>iss.</caption>
+      </detail>
+      <extent unit="page">
+        <start>113</start>
+        <end>124</end>
+      </extent>
+    </part>
+  </relatedItem>
+  <note displayLabel="Keywords">appetition, c57bl/6j mice, cephalic-phase, flavor preferences, food-deprivation, glucose transporters, gustatory system, knockout mice, licking behavior, licking microstructure, mammalian sweet, sucrose, sweeteners, T1R2+T1R3, taste receptors, umami taste</note>
+  <note displayLabel="Publication Note">The publisher&#x2019;s version of record is available at http://www.dx.doi.org/10.1523/JNEUROSCI.3356-15.2016</note>
+  <extension>
+    <flvc:flvc>
+      <flvc:owningInstitution>FSU</flvc:owningInstitution>
+      <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+    </flvc:flvc>
+  </extension>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="rdacontent">text</genre>
+  <language>
+    <languageTerm type="text">English</languageTerm>
+    <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form authority="rdamedia" type="RDA media terms">computer</form>
+    <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+    <extent>1 online resource</extent>
+    <digitalOrigin>born digital</digitalOrigin>
+    <internetMediaType>application/pdf</internetMediaType>
+  </physicalDescription>
+  <recordInfo>
+    <recordCreationDate encoding="w3cdtf">2016-12-21</recordCreationDate>
+    <descriptionStandard>rda</descriptionStandard>
+  </recordInfo>
+</mods>

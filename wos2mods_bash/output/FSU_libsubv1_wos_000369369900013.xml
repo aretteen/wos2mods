@@ -1,0 +1,176 @@
+<?xml version="1.0"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:flvc="info:flvc/manifest/v1" xsi:schemaLocation="http://www.loc.gov/standards/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd" version="3.4">
+  <titleInfo lang="eng">
+    <title>AN EXCESS OF MID-INFRARED EMISSION FROM THE TYPE Iax SN 2014dt</title>
+  </titleInfo>
+  <name type="personal" authority="local">
+    <namePart type="given">Ori D.</namePart>
+    <namePart type="family">Fox</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Joel</namePart>
+    <namePart type="family">Johansson</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Mansi</namePart>
+    <namePart type="family">Kasliwal</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Jennifer</namePart>
+    <namePart type="family">Andrews</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">John</namePart>
+    <namePart type="family">Bally</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Howard E.</namePart>
+    <namePart type="family">Bond</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Martha L.</namePart>
+    <namePart type="family">Boyer</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">R. D.</namePart>
+    <namePart type="family">Gehrz</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">George</namePart>
+    <namePart type="family">Helou</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">E. Y.</namePart>
+    <namePart type="family">Hsiao</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Frank J.</namePart>
+    <namePart type="family">Masci</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">M.</namePart>
+    <namePart type="family">Parthasarathy</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Nathan</namePart>
+    <namePart type="family">Smith</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Samaporn</namePart>
+    <namePart type="family">Tinyanont</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Schuyler D.</namePart>
+    <namePart type="family">Van Dyk</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2016-01-01</dateIssued>
+  </originInfo>
+  <abstract>Supernovae Type Iax (SNe Iax) are less energetic and less luminous than typical thermonuclear explosions. A suggested explanation for the observed characteristics of this subclass is a binary progenitor system consisting of a CO white dwarf primary accreting from a helium star companion. A single-degenerate explosion channel might be expected to result in a dense circumstellar medium (CSM), although no evidence for such a CSM has yet been observed for this subclass. Here we present recent Spitzer. observations of the SN Iax 2014dt obtained by the SPIRITS program nearly one year post-explosion that reveal a strong mid-IR excess over the expected fluxes of more normal SNe Ia. This excess is consistent with 10(-5)M(circle dot) of newly formed dust, which would be the first time that newly formed dust has been observed to form in a Type Ia. The excess, however, is also consistent with a dusty CSM that was likely formed in pre-explosion mass-loss, thereby suggesting a single degenerate progenitor system. Compared to other SNe Ia that show significant shock interaction (SNe Ia-CSM) and interacting corecollapse events (SNe IIn), this dust shell in SN 2014dt is less massive. We consider the implications that such a pre-existing dust shell has for the progenitor system, including a binary system with a mass donor that is a red giant, a red supergiant, or an asymptotic giant branch star.</abstract>
+  <identifier type="IID">FSU_libsubv1_wos_000369369900013</identifier>
+  <identifier type="DOI">10.3847/2041-8205/816/1/L13</identifier>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Astrophysical Journal Letters</title>
+    </titleInfo>
+    <identifier type="issn">2041-8205</identifier>
+    <part>
+      <detail type="volume">
+        <number>816</number>
+        <caption>vol.</caption>
+      </detail>
+      <detail type="issue">
+        <number>1</number>
+        <caption>iss.</caption>
+      </detail>
+      <extent unit="page">
+        <start>L13</start>
+      </extent>
+    </part>
+  </relatedItem>
+  <note displayLabel="Keywords">2005hk, 2012z, circumstellar matter, core-collapse supernova, dust, dust, extinction, envelope, infrared: stars, ptf 11kx, spectra, speed, spitzer-space-telescope, supernovae:   general, supernovae: individual (SN 2014dt)</note>
+  <note displayLabel="Publication Note">The publisher&#x2019;s version of record is available at http://www.dx.doi.org/10.3847/2041-8205/816/1/L13</note>
+  <extension>
+    <flvc:flvc>
+      <flvc:owningInstitution>FSU</flvc:owningInstitution>
+      <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+    </flvc:flvc>
+  </extension>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="rdacontent">text</genre>
+  <language>
+    <languageTerm type="text">English</languageTerm>
+    <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form authority="rdamedia" type="RDA media terms">computer</form>
+    <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+    <extent>1 online resource</extent>
+    <digitalOrigin>born digital</digitalOrigin>
+    <internetMediaType>application/pdf</internetMediaType>
+  </physicalDescription>
+  <recordInfo>
+    <recordCreationDate encoding="w3cdtf">2016-12-21</recordCreationDate>
+    <descriptionStandard>rda</descriptionStandard>
+  </recordInfo>
+</mods>

@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:flvc="info:flvc/manifest/v1" xsi:schemaLocation="http://www.loc.gov/standards/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd" version="3.4">
+  <titleInfo lang="eng">
+    <title>Supramolecular aggregates of single-molecule magnets</title>
+    <subtitle> exchange-biased quantum tunneling of magnetization in a rectangular [Mn-3](4) tetramer</subtitle>
+  </titleInfo>
+  <name type="personal" authority="local">
+    <namePart type="given">Tu N.</namePart>
+    <namePart type="family">Nguyen</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Wolfgang</namePart>
+    <namePart type="family">Wernsdorfer</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Muhandis</namePart>
+    <namePart type="family">Shiddiq</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Khalil A.</namePart>
+    <namePart type="family">Abboud</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Stephen</namePart>
+    <namePart type="family">Hill</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">George</namePart>
+    <namePart type="family">Christou</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
+  </originInfo>
+  <abstract>The syntheses and properties of four magnetically-supramolecular oligomers of triangular Mn-3 units are reported: dimeric [Mn6O2(O2CMe)(8)(CH3OH)(2)(pdpd)(2)] (3) and [Mn6O2(O2CMe)(8)(py)(2)(pdpd)(2)](ClO4)(2) (4), and tetrameric [Mn12O4(O2CR)(12)(pdpd)(6)](ClO4)(4) (R = Me (5), Bu-t (6)). They were all obtained employing 3-phenyl-1,5-di(pyridin-2-yl) pentane-1,5-dione dioxime (pdpdH(2)), either in direct synthesis reactions involving oxidation of Mn-II salts or in metathesis reactions with the preformed complex [Mn3O(O2CMe)(6)(py)(3)](ClO4) (1); complex 6 was then obtained by carboxylate substitution on complex 5. Complexes 3 and 4 contain two [Mn-2(III) Mn-II(mu(3)-O)](6+) and [Mn-3(III)(mu(3)-O)](7+) units, respectively, linked by two pdpd(2-) groups. Complexes 5 and 6 contain four [Mn-3(III)(mu(3)-O)](7+) units linked by six pdpd(2-) groups into a rectangular tetramer [Mn-3(III)](4). Solid-state dc magnetic susceptibility studies showed that the Mn-3 subunits in 3 and 4 have a ground-state spin of S = 3/2 and S = 2, respectively, while the Mn-3 subunits in 5 and 6 possess an S = 6 ground state. Complexes 5 and 6 exhibit frequency-dependent out-of-phase (x ''(M)) ac susceptibility signals indicating 5 and 6 to be tetramers of Mn-3 single-molecule magnets (SMMs). High-frequency EPR studies of a microcrystalline powder sample of 5 center dot 2CH(2)Cl(2) provided precise spin Hamiltonian parameters of D = -0.33 cm(-1), vertical bar E vertical bar = 0.03 cm(-1), B-4(0) = -8.0 x 10(-5) cm(-1), and g = 2.0. Magnetization vs. dc field sweeps on a single crystal of 5 center dot xCH(2)Cl(2) gave hysteresis loops below 1 K that exhibit exchange-biased quantum tunneling of magnetization (QTM) steps with a bias field of 0.19 T. Simulation of the loops determined that each Mn3 unit is exchange-coupled to the two neighbors linked to it by the pdpd(2-) linkers, with an antiferromagnetic inter-Mn-3 exchange interaction of J/k(B) = -0.011 K ((H) over cap = -2 (JS) over cap (i)center dot(S) over cap (j) convention). The work demonstrates a rational approach to synthesizing magnetically-supramolecular aggregates of SMMs as potential multi-qubit systems for quantum computing.</abstract>
+  <identifier type="IID">FSU_libsubv1_wos_000368835300041</identifier>
+  <identifier type="DOI">10.1039/c5sc02599k</identifier>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Chemical Science</title>
+    </titleInfo>
+    <identifier type="issn">2041-6520</identifier>
+    <part>
+      <detail type="volume">
+        <number>7</number>
+        <caption>vol.</caption>
+      </detail>
+      <detail type="issue">
+        <number>2</number>
+        <caption>iss.</caption>
+      </detail>
+      <extent unit="page">
+        <start>1156</start>
+        <end>1173</end>
+      </extent>
+    </part>
+  </relatedItem>
+  <note displayLabel="Keywords">2-pyridyl ketone oxime, bridged clusters, building-block, chain magnets, cluster chemistry, complexes, coordination   chemistry, high-spin molecules, Networks, phase interference</note>
+  <note displayLabel="Publication Note">The publisher&#x2019;s version of record is available at http://www.dx.doi.org/10.1039/c5sc02599k</note>
+  <extension>
+    <flvc:flvc>
+      <flvc:owningInstitution>FSU</flvc:owningInstitution>
+      <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+    </flvc:flvc>
+  </extension>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="rdacontent">text</genre>
+  <language>
+    <languageTerm type="text">English</languageTerm>
+    <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form authority="rdamedia" type="RDA media terms">computer</form>
+    <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+    <extent>1 online resource</extent>
+    <digitalOrigin>born digital</digitalOrigin>
+    <internetMediaType>application/pdf</internetMediaType>
+  </physicalDescription>
+  <recordInfo>
+    <recordCreationDate encoding="w3cdtf">2016-12-21</recordCreationDate>
+    <descriptionStandard>rda</descriptionStandard>
+  </recordInfo>
+</mods>

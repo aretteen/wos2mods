@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:flvc="info:flvc/manifest/v1" xsi:schemaLocation="http://www.loc.gov/standards/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd" version="3.4">
+  <titleInfo lang="eng">
+    <title>Sequential posttranslational modifications regulate PKC degradation</title>
+  </titleInfo>
+  <name type="personal" authority="local">
+    <namePart type="given">Yan</namePart>
+    <namePart type="family">Wang</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Yangbo</namePart>
+    <namePart type="family">Wang</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Huijun</namePart>
+    <namePart type="family">Zhang</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Yingwei</namePart>
+    <namePart type="family">Gao</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Chao</namePart>
+    <namePart type="family">Huang</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Aiwu</namePart>
+    <namePart type="family">Zhou</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Yi</namePart>
+    <namePart type="family">Zhou</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Yong</namePart>
+    <namePart type="family">Li</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2016-01-15</dateIssued>
+  </originInfo>
+  <abstract>Cross-talk among different types of posttranslational modifications (PTMs) has emerged as an important regulatory mechanism for protein function. Here we elucidate a mechanism that controls PKCa stability via a sequential cascade of PTMs. We demonstrate that PKCa dephosphorylation decreases its sumoylation, which in turn promotes its ubiquitination and ultimately enhances its degradation via the ubiquitin-proteasome pathway. These findings provide a molecular explanation for the activation-induced down-regulation of PKC proteins.</abstract>
+  <identifier type="IID">FSU_libsubv1_wos_000368233300016</identifier>
+  <identifier type="DOI">10.1091/mbc.E15-09-0624</identifier>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Molecular Biology of the Cell</title>
+    </titleInfo>
+    <identifier type="issn">1059-1524</identifier>
+    <part>
+      <detail type="volume">
+        <number>27</number>
+        <caption>vol.</caption>
+      </detail>
+      <detail type="issue">
+        <number>2</number>
+        <caption>iss.</caption>
+      </detail>
+      <extent unit="page">
+        <start>410</start>
+        <end>420</end>
+      </extent>
+    </part>
+  </relatedItem>
+  <note displayLabel="Keywords">activation, conjugation, dna-damage, p53, phosphorylation, protein-kinase-c, self-ubiquitination, sumo-1 modification, sumoylation, tumor-suppressor</note>
+  <note displayLabel="Publication Note">The publisher&#x2019;s version of record is available at http://www.dx.doi.org/10.1091/mbc.E15-09-0624</note>
+  <extension>
+    <flvc:flvc>
+      <flvc:owningInstitution>FSU</flvc:owningInstitution>
+      <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+    </flvc:flvc>
+  </extension>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="rdacontent">text</genre>
+  <language>
+    <languageTerm type="text">English</languageTerm>
+    <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form authority="rdamedia" type="RDA media terms">computer</form>
+    <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+    <extent>1 online resource</extent>
+    <digitalOrigin>born digital</digitalOrigin>
+    <internetMediaType>application/pdf</internetMediaType>
+  </physicalDescription>
+  <recordInfo>
+    <recordCreationDate encoding="w3cdtf">2016-12-21</recordCreationDate>
+    <descriptionStandard>rda</descriptionStandard>
+  </recordInfo>
+</mods>

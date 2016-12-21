@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:flvc="info:flvc/manifest/v1" xsi:schemaLocation="http://www.loc.gov/standards/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd" version="3.4">
+  <titleInfo lang="eng">
+    <title>North Atlantic Barotropic Vorticity Balances in Numerical Models</title>
+  </titleInfo>
+  <name type="personal" authority="local">
+    <namePart type="given">Joseph</namePart>
+    <namePart type="family">Schoonover</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">William</namePart>
+    <namePart type="family">Dewar</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Nicolas</namePart>
+    <namePart type="family">Wienders</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Jonathan</namePart>
+    <namePart type="family">Gula</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">James C.</namePart>
+    <namePart type="family">McWilliams</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">M. Jeroen</namePart>
+    <namePart type="family">Molemaker</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Susan C.</namePart>
+    <namePart type="family">Bates</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Gokhan</namePart>
+    <namePart type="family">Danabasoglu</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Stephen</namePart>
+    <namePart type="family">Yeager</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2016-01</dateIssued>
+  </originInfo>
+  <abstract>Numerical simulations are conducted across model platforms and resolutions with a focus on the North Atlantic. Barotropic vorticity diagnostics confirm that the subtropical gyre is characterized by an inviscid balance primarily between the applied wind stress curl and bottom pressure torque. In an area-integrated budget over the Gulf Stream, the northward return flow is balanced by bottom pressure torque. These integrated budgets are shown to be consistent across model platforms and resolution, suggesting that these balances are robust. Two of the simulations, at 100- and 10-km resolutions, produce a more northerly separating Gulf Stream but obtain the correct integrated vorticity balances. In these simulations, viscous torque is nonnegligible on smaller scales, indicating that the separation is linked to the details of the local dynamics. These results are shown to be consistent with a scale analysis argument that suggests that the biharmonic viscous torque in particular is upsetting the inviscid balance in simulations with a more northerly separation. In addition to providing evidence for locally controlled inviscid separation, these results provide motivation to revisit the formulation of subgrid-scale parameterizations in general circulation models.</abstract>
+  <identifier type="IID">FSU_libsubv1_wos_000368628500001</identifier>
+  <identifier type="DOI">10.1175/JPO-D-15-0133.1</identifier>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Journal of Physical Oceanography</title>
+    </titleInfo>
+    <identifier type="issn">0022-3670</identifier>
+    <part>
+      <detail type="volume">
+        <number>46</number>
+        <caption>vol.</caption>
+      </detail>
+      <detail type="issue">
+        <number>1</number>
+        <caption>iss.</caption>
+      </detail>
+      <extent unit="page">
+        <start>289</start>
+        <end>303</end>
+      </extent>
+    </part>
+  </relatedItem>
+  <note displayLabel="Keywords">anisotropic horizontal viscosity, Baroclinic flows, Barotropic flows, bottom   pressure torques, Circulation, climatology, Coupled models, Dynamics, flows, General circulation models, Model comparison, Models and   modeling, ocean circulation model, Ocean models, realistic oceans, Separation, system, topography, western boundary currents</note>
+  <note displayLabel="Publication Note">The publisher&#x2019;s version of record is available at http://www.dx.doi.org/10.1175/JPO-D-15-0133.1</note>
+  <extension>
+    <flvc:flvc>
+      <flvc:owningInstitution>FSU</flvc:owningInstitution>
+      <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+    </flvc:flvc>
+  </extension>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="rdacontent">text</genre>
+  <language>
+    <languageTerm type="text">English</languageTerm>
+    <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form authority="rdamedia" type="RDA media terms">computer</form>
+    <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+    <extent>1 online resource</extent>
+    <digitalOrigin>born digital</digitalOrigin>
+    <internetMediaType>application/pdf</internetMediaType>
+  </physicalDescription>
+  <recordInfo>
+    <recordCreationDate encoding="w3cdtf">2016-12-21</recordCreationDate>
+    <descriptionStandard>rda</descriptionStandard>
+  </recordInfo>
+</mods>

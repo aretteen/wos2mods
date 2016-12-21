@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:flvc="info:flvc/manifest/v1" xsi:schemaLocation="http://www.loc.gov/standards/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd" version="3.4">
+  <titleInfo lang="eng">
+    <title>Simple derivation of the Fong-Wandzura pulse sequence</title>
+  </titleInfo>
+  <name type="personal" authority="local">
+    <namePart type="given">Daniel</namePart>
+    <namePart type="family">Zeuch</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">N. E.</namePart>
+    <namePart type="family">Bonesteel</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2016-01-25</dateIssued>
+  </originInfo>
+  <abstract>We give an analytic construction of a class of two-qubit gate pulse sequences that act on five of the six spin-1/2 particles used to encode a pair of exchange-only three-spin qubits. Within this class, the problem of gate construction reduces to that of finding a smaller sequence that acts on four spins and is subject to a simple constraint. The optimal sequence satisfying this constraint yields a two-qubit gate sequence equivalent to that found numerically by Fong and Wandzura. Our construction is sufficiently simple that it can be carried out entirely with pen, paper, and knowledge of a few basic facts about quantum spin.</abstract>
+  <identifier type="IID">FSU_libsubv1_wos_000368983200001</identifier>
+  <identifier type="DOI">10.1103/PhysRevA.93.010303</identifier>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Physical Review A</title>
+    </titleInfo>
+    <identifier type="issn">2469-9926</identifier>
+    <part>
+      <detail type="volume">
+        <number>93</number>
+        <caption>vol.</caption>
+      </detail>
+      <detail type="issue">
+        <number>1</number>
+        <caption>iss.</caption>
+      </detail>
+      <extent unit="page">
+        <start>10303</start>
+      </extent>
+    </part>
+  </relatedItem>
+  <note displayLabel="Keywords">dots, exchange interaction, spins, universal quantum computation</note>
+  <note displayLabel="Publication Note">The publisher&#x2019;s version of record is available at http://www.dx.doi.org/10.1103/PhysRevA.93.010303</note>
+  <extension>
+    <flvc:flvc>
+      <flvc:owningInstitution>FSU</flvc:owningInstitution>
+      <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+    </flvc:flvc>
+  </extension>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="rdacontent">text</genre>
+  <language>
+    <languageTerm type="text">English</languageTerm>
+    <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form authority="rdamedia" type="RDA media terms">computer</form>
+    <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+    <extent>1 online resource</extent>
+    <digitalOrigin>born digital</digitalOrigin>
+    <internetMediaType>application/pdf</internetMediaType>
+  </physicalDescription>
+  <recordInfo>
+    <recordCreationDate encoding="w3cdtf">2016-12-21</recordCreationDate>
+    <descriptionStandard>rda</descriptionStandard>
+  </recordInfo>
+</mods>

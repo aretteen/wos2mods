@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+if [ -z "$1" ];
+then
+	echo "Include the path to the JSON txt file you want to process, like this:"
+	echo "wos2mods path/to/file.txt"
+	exit
+fi
+
+BASEPATH=`dirname $0`
+
+printf "Processing metadata from $1... "
+$BASEPATH/../assets/wos2mods_bash.php $1
+echo "Done!"
+
+
