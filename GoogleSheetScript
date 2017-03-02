@@ -1,0 +1,238 @@
+// Attribution for initial creation of this script goes to Stephen X. Flynn, whose original script can be found at http://pastebin.com/sXknBHDq. 
+// Changes and additions have been added by Aaron Retteen for use by institutional repository managers as described below:
+//
+// -Created a getlink function so user can create a Sherpa Link column and dynamically create direct links to the
+//  SHERPA/RoMEO page for a given ISSN.
+// -Created a getcolor function so user can create a column that will indicate what OA Color SHERPA/RoMEO assigned
+//  to the journal at a glance.
+// -Updated the embargo function to more accurately recognized SHERPA/RoMEO journals with restriction language indicating
+//  that an embargo applies.
+// -Updated the permPdfGet function to include more language indicating that a publisher's PDF cannot be used in an
+//  institutional repository.
+
+//For questions, email Stephen X. Flynn, College of Wooster: sflynn (at) wooster.edu
+
+//Updates:
+//May 2013 - fixed pubpdf() to detect both "failed" and "notfound" ISSN numbers, similar to finaldraft()
+//March 2013 - new functions for Final Drafts and OA mandates
+
+//Instructions: 
+//Watch a quick installation video at http://youtu.be/ZMyKVHM5nOc
+//(A) Register for an API key at http://www.sherpa.ac.uk/romeo/apiregistry.php then insert the key below in the "Sherpa API key" section of the code. Without an API key, you will be limited to 500 requests per day, per IP address.
+
+//(1) Perform an affiliation search in a large bibliographic database, such as Scopus or Web of Knowledge. Include the ISSN metadata in the database export, since the function depends on the ISSN to work. Export this search to a .csv file.
+//(2) Import the .csv into a Google Spreadsheet with at a minimum, columns for the following: ISSN, pubpdf, finaldraft, embargo, checkOAMandate. Other details like Journal title, Article title, and Author are optional.
+//(3) CRITICAL: Select the ISSN column, select Format -> Number -> Plain Text. Or else the script won't work!
+//(4) Go to Script -> Script Editor
+//(5) Copy and paste all the following into script editor window, and save.
+//(6) Use the three functions described below in their corresponding columns. For example, =pubpdf(19352735) will lookup the ISSN 1935-2735 (PLoS Neglected Tropical Diseases) in Sherpa/Romeo, and result in the text "Publisher's version/PDF may be used".
+
+//TIP: Go to Format -> Conditional formatting... to set up color codes to help visualize your column outputs.
+//TIP: Beware of excessive use imposed by Google. Currently you are limited to 20,000-50,000 URL lookups per day. See https://docs.google.com/macros/dashboard for UrlFetch specifically.
+//TIP: To avoid excessive usage, after running a set of ISSNs, copy and paste over the discovered values by going to Edit -> Paste special -> Paste values only
+
+//Function: this function generates a link to the sherpa romeo page for future human reference
+function getlink(issn){
+  var link = "http://www.sherpa.ac.uk/romeo/issn/" + issn + "/";
+  return link;
+}
+
+
+//Function: this function will search for the Romeo Color and return it
+function getcolor(issn){
+ var xmlText = getXML(issn);
+ 
+ var colorGreen = xmlText.search("<romeocolour>green</romeocolour>");
+ var colorBlue = xmlText.search("<romeocolour>blue</romeocolour>");
+ var colorYellow = xmlText.search("<romeocolour>yellow</romeocolour>");
+ var colorWhite = xmlText.search("<romeocolour>white</romeocolour>");
+                               
+  if(colorGreen > 0){
+    return ("Green") }
+  else if (colorBlue > 0){
+    return ("Blue") }
+  else if (colorYellow > 0){
+    return ("Yellow") }
+  else if (colorWhite > 0){
+    return ("White") }
+  else {
+    return ("No color found");
+  }
+}
+
+
+//Function: this is the main function that checks if the ISSN is a journal which permits publisher PDF archiving
+function pubpdf(issn) {  
+ var text = getXML(issn);
+   // checks to see if the issn is invalid
+  var failText=text.search("<outcome>failed</outcome>");
+  var notfound=text.search("<outcome>notFound</outcome>");
+  // checks to see if the issn is missing
+  if (issn == 00000000 || issn == 0000-0000 || issn == "") { return ("blank ISSN")
+  } else if (failText > 0){
+    return ("ISSN invalid") }
+  else if (notfound > -1){
+    return ("not found") }
+  else if (failText == -1) {  
+  return permPdfGet(text);
+  }
+}
+
+//checks if the ISSN is a journal which permits archiving final drafts to repositories
+function finaldraft(issn){
+ var text = getXML(issn);
+   // checks to see if the issn is invalid
+  var failText=text.search("<outcome>failed</outcome>");
+  var notfound=text.search("<outcome>notFound</outcome>");
+  // checks to see if the issn is missing
+  if (issn == 00000000 || issn == 0000-0000 || issn == "") { return ("blank ISSN") 
+  } else if (failText > 0){
+    return ("ISSN invalid") }
+  else if (notfound > -1){
+    return ("not found") }
+  else if (failText == -1) {   
+  return permFinal(text);
+  }
+}
+
+//Function: look for the word "Embargo" in the journal's copyright record
+function embargo(issn){
+  var xmlText = getXML(issn);
+  var embargoPDF=xmlText.search("embargo");
+  var embargoPDF2=xmlText.search("months");
+  if ((embargoPDF > 0) || (embargoPDF2 > 0)) {
+    return ("Embargo");
+  } else {
+    return ("No");
+  }
+}
+
+//checks if the ISSN is a journal which specifically forbids uploading to Open Access mandate institutional repositories
+function checkOAmandate(issn){
+ var text = getXML(issn);
+   // checks to see if the issn is invalid
+  var failText=text.search("<outcome>failed</outcome>");
+  var notfound=text.search("<outcome>notFound</outcome>");
+  // checks to see if the issn is missing
+  if (issn == 00000000 || issn == 0000-0000 || issn == "") { return ("blank ISSN") 
+  } else if (failText > 0){
+    return ("ISSN invalid") }
+  else if (notfound > -1){
+    return ("not found") }
+  else if (failText == -1) {   
+  return antiOAmandate(text);
+  }
+}
+
+//Function: use this function if your system deleted the starting zeros of your ISSN numbers. DSpace 1.6 does this on //a metadata export.
+function fixISSNdoc(issn) {
+  issn = fixissn(issn);
+  if (issn == 00000000 || issn == 0000-0000 || issn == "") 
+  { return ("blank ISSN") 
+  } else if (issn.length > 9) {
+    return ("invalid issn") } else 
+      return issn;
+
+}
+
+//test function for logging purposes
+function testSherp() {
+   var result = pubpdf("2041-8205");
+   Logger.log("test result is '" + result + "'");
+}
+
+//These are all the "Helper" functions used in the main functions
+function fixissn(issn){
+  Logger.log("Old issn " + issn);
+  //if there's a dash in the ISSN, it need 9 characters instead of 8
+  if (issn.search("-") > -1) {
+   var mis = 9; 
+  } else if (issn.search("-") == -1) {
+  var mis = 8; 
+  }
+  
+  //if the ISSN is less than 9 or 8 (mis), add zeros to the beginning
+  while (issn.length < mis && issn.length > 0) {
+    //zero added to beginning of ISSN
+    issn = 0 + issn
+    }
+  Logger.log("fixed to new issn " + issn);
+  return issn;
+}
+
+function getXML(issn){
+    // retrieves XML output from Sherpa API using issn input
+  issn = fixissn(issn);
+  
+//Google scripts will timeout if you run the script too often. These sleep actions are designed to space out your commands. Comment out the next 6 lines if you're testing and only running small batches (less than 10 at a time).
+   var randnumber = Math.random()*5000;
+   Utilities.sleep(randnumber); 
+   Utilities.sleep(randnumber); 
+   Utilities.sleep(randnumber); 
+   Utilities.sleep(randnumber); 
+   Utilities.sleep(randnumber); 
+  
+  //Sherpa API key for College of Wooster
+  //register for a key at http://www.sherpa.ac.uk/romeo/apiregistry.php
+    var sherpaAPIkey = "";
+  //insert your API key inside the quotes
+  
+   var parameters = {method : "get"};
+   var xmlText = UrlFetchApp.fetch("http://www.sherpa.ac.uk/romeo/api29.php?issn=" + issn + "&versions=all" + "&ak=" + sherpaAPIkey,parameters).getContentText();
+  return xmlText;
+}
+
+function permPdfGet(txt) {
+  var pdfCan=txt.search("<pdfarchiving>can</pdfarchiving>");
+  var pdfRestricted=txt.search("<pdfarchiving>restricted</pdfarchiving>")
+  var pdfCannot=txt.search("<pdfarchiving>cannot</pdfarchiving>");
+  var pdfUnknown=txt.search("<pdfarchiving>unknown</pdfarchiving>");
+  var oaPub=txt.search("DOAJ says it is an open access journal");
+  var noIR=txt.search("Cannot post on archival website or institutional repository");
+  var noIR2=txt.search("cannot deposit on archival website or institutional repository");
+  var noIR3=txt.search("cannot be used in a repository");
+
+  
+  //if we find specific negative phrase or if <pdfarchiving> is "cannot"
+  if ((pdfCannot > -1) || (noIR > -1) || (noIR2 > -1) || (noIR3 > -1)) {
+    var permTxt = "No publisher PDF"
+    } else if (pdfUnknown > -1) {
+      permTxt = "Unknown" 
+  // if its an open access journal, but not "pdf may be used"
+ } else if (oaPub > -1 && pdfCan == "-1") {
+    permTxt = "Open access journal, check PDF"
+  }  else if (pdfCan > -1) {
+  // if <pdfarchiving> is "can"
+    permTxt = "Publisher's version/PDF may be used"
+  }  else if (pdfRestricted > -1) {
+  // if <pdfarchiving> is "restricted" with an embargo
+    permTxt= "Publisher's version/PDF may be used after an embargo period" }
+  return permTxt;
+}
+
+function permFinal(txt) {
+  var finalPerm=txt.search("<postarchiving>restricted</postarchiving>");
+  var finalPermNO=txt.search("<postarchiving>cannot</postarchiving>");
+  var finalPermIDK=txt.search("<postarchiving>unknown</postarchiving>");
+  
+  if (finalPerm == "-1" && finalPermNO == "-1" && finalPermIDK == "-1"){
+    var finalPerm = "Final draft allowed"
+    }else if (finalPerm > -1) {
+      finalPerm = "Final draft restricted"
+    }else if (finalPermNO > -1) {
+      finalPerm = "NO final draft allowed" 
+    } else if (finalPermIDK > -1) {
+      finalPerm = "status unknown" }
+     return finalPerm;
+}
+
+//some publishers like Elsevier single out institutions with open access mandates
+function antiOAmandate(txt) {
+ var antiOA=txt.search("separate agreement between repository and publisher exists");
+  
+  if (antiOA > -1) {
+    var antiOAstatus = "Anti OA mandate"
+    }  else if (antiOA == "-1") {
+      antiOAstatus = "all good!" }
+  return antiOAstatus;
+}
