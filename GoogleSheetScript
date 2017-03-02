@@ -5,7 +5,7 @@
 //  SHERPA/RoMEO page for a given ISSN.
 // -Created a getcolor function so user can create a column that will indicate what OA Color SHERPA/RoMEO assigned
 //  to the journal at a glance.
-// -Updated the embargo function to more accurately recognized SHERPA/RoMEO journals with restriction language indicating
+// -Updated the embargo function to more accurately recognize SHERPA/RoMEO journals with restriction language indicating
 //  that an embargo applies.
 // -Updated the permPdfGet function to include more language indicating that a publisher's PDF cannot be used in an
 //  institutional repository.
