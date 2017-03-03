@@ -1,4 +1,4 @@
-General Concept and Background Information
+## General Concept and Background Information
 
 - The goal is to capture as much FSU-affiliated publications appearing in Web of Science with minimal participation necessary on the part of authors. Part of the workflow focuses on decreasing the time-intensive tasks of identifying scholarship and transferring metadata between different platforms. Using a combination of Web of Science, Zotero, and SHERPA/RoMEO API calls in Google Sheets, thousands of publications can be identified and efficiently checked for embargo requirements, manuscript v. publisher copy deposit permissions, and whether the publisher targets institutions with OA policies/mandates. 
 - The end result of the workflow process leaves you with a set of publications that you can easily filter to discover different sub-sets of articles: (1) those that can be deposited into an institutional repository as publisher versions; (2) those that can be deposited into an institutional repository as accepted manuscripts/final drafts; and (3) those that only allow pre-print versions to be deposited into institutional repositories. Interspersed with this information are checks for embargo restrictions and a direct link to the SHERPA/RoMEO page for the journal for quick and easy reference. 
@@ -8,7 +8,7 @@ General Concept and Background Information
 - Any of the articles identified in the workflow outlined above can then be passed through the wos2mods.php script to transform the spreadsheet metadata into a valid MODS record. 
   
 
-Helpful Assets and What You Need to Get Started
+## Helpful Assets and What You Need to Get Started
 
 - Short video demoing the process of using SHERPA/RoMEO API calls in Google Sheets:[https://youtu.be/ZMyKVHM5nOc](https://youtu.be/ZMyKVHM5nOc) 
     - Pastebin of original source code for script: [http://pastebin.com/sXknBHDq](http://pastebin.com/sXknBHDq) 
@@ -20,11 +20,9 @@ Helpful Assets and What You Need to Get Started
 - [OpenRefine](http://openrefine.org/) 
 - My [GitHub wos2mods Repository](https://github.com/aretteen/wos2mods) for wos2mods.php script and documentation 
   
-  
-  
-  
+## Workflow
 
-Get Affiliation Result Sets & Export Using Web of Science
+### Get Affiliation Result Sets & Export Using Web of Science
 
 1. Using Basic Search, select “Organization-Enhanced” from the drop down. 
     1. Once selected, click on “Select from Index” and find “Florida State University.” Note that “Florida State University System” is misleading; that selection is better understood as “State of Florida University System” and will return articles from any Florida University. 
@@ -37,9 +35,7 @@ Get Affiliation Result Sets & Export Using Web of Science
     3. Click “Send” 
     4. You should be automatically prompted to save the file “savedrecs.ciw” to your computer. You can save the file with any name, or leave it as “savedrecs,” but definitely do not change the “.ciw” extension. 
 
-  
-
-Import into Zotero Collection
+### Import into Zotero Collection
 
 1. Open Zotero 
 2. File -&gt; Import 
@@ -50,8 +46,7 @@ Import into Zotero Collection
     2. Note - From the imported folder, select all records and drag to the WoS subcollection. Then, right-click and delete the import folder. Do not delete items in the subcollection, since that will still delete the records as they exist in the WoS subcollection. Just delete the collection. 
 
   
-
-Export from Zotero to CSV File Format
+### Export from Zotero to CSV File Format
 
 1. Right-click on the collection containing the imported information and select “Export Collection” 
 2. For Format, select “CSV” 
@@ -60,7 +55,7 @@ Export from Zotero to CSV File Format
 5. Name and save the file on your computer. 
   
 
-Import CSV File into Google Sheets
+### Import CSV File into Google Sheets
 
 1. Log in to Google Drive and create a new spreadsheet. 
 2. Name the new Sheet appropriately and select a location for it. 
@@ -80,7 +75,7 @@ Import CSV File into Google Sheets
 2. Note: The script is now associated with that sheet. Every new sheet you make you have to add the script language again. I found it useful to create a blank “template sheet” with only the script loaded into it, which can be copied (File -&gt; Make a Copy) and used for different Web of Science searches. 
   
 
-Set Up Google Sheet & Run Script
+### Set Up Google Sheet & Run Script
 
 1. On the Google Sheet, you now need to add new columns.  
     1. Right click on the first column (Letter A, it should be “Key”) and select “Insert 1 left” to create a new column. 
@@ -101,9 +96,7 @@ Set Up Google Sheet & Run Script
 4. Replace results with text to avoid triggering script upon reloading Sheet. 
     1. Whenever the script is done running on a large set of fields, you can simply select those fields, copy, and then immediately paste special -&gt; values only. This will replace the function equation with plain text and when you re-load the Google Sheet, the script won’t run again for those cells. This is an important step, do not skip. 
 
-  
-
-Tips and Recommendations
+### Tips and Recommendations
 
 - When handling 500+ records on a sheet, run the script in sets of 500 to avoid issues of timing out. 
 - Run this script on a computer that you can keep the sheet open for as long as it takes to run the script. It takes some time for the script to run API checks for each field. You can lower this time by choosing only to run the functions you are most interested in. pubpdf is probably the most helpful, followed by embargo, then finaldraft, then getcolor, then checkOAmandate. My “getlink” function doesn’t actually use the Sherpa API and doesn’t add significant time to the script processing time. 
@@ -113,9 +106,7 @@ Tips and Recommendations
 - To avoid excessive usage, after running a set of ISSNs, copy and paste over the discovered values by going to Edit -&gt; Paste special -&gt; Paste values only 
   
   
-  
-
-Creating MODS Records from Result Set Using OpenRefine + PHP Script
+### Creating MODS Records from Result Set Using OpenRefine + PHP Script
 
 - First, I want to attribute the initial concept and instructions for a similar workflow to Sara Allain and the University of Toronto Scarborough: [https://www.utsc.utoronto.ca/digitalscholarship/content/blogs/converting-spreadsheets-modsxml-using-open-refine](https://www.utsc.utoronto.ca/digitalscholarship/content/blogs/converting-spreadsheets-modsxml-using-open-refine) 
 - Conceptual Overview: We are going to be taking the Result Set stored in the Google Sheet, process the data within it in Open Refine and prepare the data for processing by the PHP script, export the data from Open Refine as a JSON file, then process that JSON file with a PHP script that will generate MODS records for each item  
@@ -138,23 +129,23 @@ Creating MODS Records from Result Set Using OpenRefine + PHP Script
     2. Click Create Project 
 
 11. Data Manipulation & MODS Record Preparation 
-    1. Note that text in red is case-sensitive and must be entered in correctly for the PHP script to work. 
+    1. Note that text in `this format` is case-sensitive and must be entered in correctly for the PHP script to work. 
     2. IID creation 
         1. Go to the Extra column (which should contain the Web of Science identifier). Click the arrow and select Edit column -&gt; Add column based on this column 
-        2. New column name: IID 
-        3. Expression (quotes included): "FSU_libsubv1_wosgrabber_" + substring(value, 6) 
+        2. New column name: `IID` 
+        3. Expression (quotes included): `"FSU_libsubv1_wosgrabber_" + substring(value, 6)` 
 
     3. Publication note creation 
         1. Go to the DOI column, click the arrow, and select Edit column -&gt; Add column based on this column 
-        2. New column name: Publication note 
-        3. Expression (quotes included): “The publisher’s version of record is available at https://doi.org/” + value 
+        2. New column name: `Publication note` 
+        3. Expression (quotes included): `“The publisher’s version of record is available at https://doi.org/” + value` 
         4. Click OK. Records without DOIs will not have a publication note generated. 
 
     4. Page range 
         1. Go to the Pages column, click the arrow -&gt; Edit Column -&gt; Split into several columns 
         2. For “How to Split Column” select “by separator” and make the separator character a “-” instead of a comma. (put the dash without quotes) 
         3. You can de-select Remove this column if you want to preserve the original cells. Removing the column is ok, too. 
-        4. You’ll now have two extra columns called Pages 1 and Pages 2. Rename “Pages 1” to “Start” and “Pages 2” to “End” by clicking the arrow -&gt; Edit Column-&gt; Rename column. 
+        4. You’ll now have two extra columns called Pages 1 and Pages 2. Rename “Pages 1” to `Start` and “Pages 2” to `End` by clicking the arrow -&gt; Edit Column-&gt; Rename column. 
         5. Note: some of the initial values only have the start page and not the end page, which is ok. Only the “start” value will be included in the MODS record if this is the case 
 
     5. Title manipulation 
@@ -167,35 +158,35 @@ Creating MODS Records from Result Set Using OpenRefine + PHP Script
             2. For “How to Split Column” select “by separator” and make the separator character a “:” (colon) instead of a comma. (put the colon in without quotes) 
             3. Split into “2” columns at most 
             4. De-select “Remove this column” so you can retain the original title string 
-            5. Rename “Title 1” to “Base Title” 
-            6. Rename “Title 2” to “Subtitle” 
+            5. Rename “Title 1” to `Base Title` 
+            6. Rename “Title 2” to `Subtitle` 
 
         4. Nonsort 
             1. Using Open Refine, we have to take the title and check for nonsort words (“A”, “An”, “The”). At end of process, you will have three new columns with true/false values. 
             2. Nonsort A 
                 1. Go to arrow for Title -&gt; Edit column -&gt; Add column based on this column… 
-                2. Enter new column name: Nonsort A 
-                3. Enter the following expression: startsWith(value, "A ") 
+                2. Enter new column name: `Nonsort A` 
+                3. Enter the following expression: `startsWith(value, "A ")` 
                     1. Note there is an intentional trailing space after A 
 
                 4. Click Ok 
 
             3. Nonsort An 
                 1. Go to arrow for Title -&gt; Edit column -&gt; Add column based on this column… 
-                2. Enter new column name: Nonsort An 
-                3. Enter the following expression: startsWith(value, "An ") 
+                2. Enter new column name: `Nonsort An`
+                3. Enter the following expression: `startsWith(value, "An ")`
                 4. Click Ok 
 
             4. Nonsort The 
                 1. Go to arrow for Title -&gt; Edit column -&gt; Add column based on this column… 
-                2. Enter new column name: Nonsort The 
-                3. Enter the following expression: startsWith(value, "The ") 
+                2. Enter new column name: `Nonsort The` 
+                3. Enter the following expression: `startsWith(value, "The ")` 
                 4. Click Ok 
 
         5. Manual Tags 
             1. These tags can serve as a Keyword string in the MODS record, but they have to be changed to be separated by comma instead of semicolon 
             2. Click the arrow for Manual Tags -&gt; Edit cells -&gt; Transform… 
-            3. Paste the following expression: replace(value, ";", ",") 
+            3. Paste the following expression: `replace(value, ";", ",")`
             4. Click Ok. 
 
 12. Export Result Set in JSON 
