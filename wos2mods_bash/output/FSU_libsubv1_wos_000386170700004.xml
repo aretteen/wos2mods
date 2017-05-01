@@ -1,0 +1,1263 @@
+<?xml version="1.0"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:flvc="info:flvc/manifest/v1" xsi:schemaLocation="http://www.loc.gov/standards/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd" version="3.4">
+  <titleInfo lang="eng">
+    <title>Measurement Of Target And Double-spin Asymmetries For The (e)over-right-arrow (p)over-right-arrow -&gt; E Pi(+)(n) Reaction In The Nucleon Resonance Region At Low Q(2)</title>
+  </titleInfo>
+  <name type="personal" authority="local">
+    <namePart type="given">X.</namePart>
+    <namePart type="family">Zheng</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">K. P.</namePart>
+    <namePart type="family">Adhikari</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">P.</namePart>
+    <namePart type="family">Bosted</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">A.</namePart>
+    <namePart type="family">Deur</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">V.</namePart>
+    <namePart type="family">Drozdov</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">L.</namePart>
+    <namePart type="family">El Fassi</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Hyekoo</namePart>
+    <namePart type="family">Kang</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">K.</namePart>
+    <namePart type="family">Kovacs</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">S.</namePart>
+    <namePart type="family">Kuhn</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">E.</namePart>
+    <namePart type="family">Long</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">S. K.</namePart>
+    <namePart type="family">Phillips</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">M.</namePart>
+    <namePart type="family">Ripani</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">K.</namePart>
+    <namePart type="family">Slifer</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">L. C.</namePart>
+    <namePart type="family">Smith</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">D.</namePart>
+    <namePart type="family">Adikaram</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Z.</namePart>
+    <namePart type="family">Akbar</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">M. J.</namePart>
+    <namePart type="family">Amaryan</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">S. Anefalos</namePart>
+    <namePart type="family">Pereira</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">G.</namePart>
+    <namePart type="family">Asryan</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">H.</namePart>
+    <namePart type="family">Avakian</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">R. A.</namePart>
+    <namePart type="family">Badui</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">J.</namePart>
+    <namePart type="family">Ball</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">N. A.</namePart>
+    <namePart type="family">Baltzell</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">M.</namePart>
+    <namePart type="family">Battaglieri</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">V.</namePart>
+    <namePart type="family">Batourine</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">I.</namePart>
+    <namePart type="family">Bedlinskiy</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">A. S.</namePart>
+    <namePart type="family">Biselli</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">W. J.</namePart>
+    <namePart type="family">Briscoe</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">S.</namePart>
+    <namePart type="family">Bueltmann</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">V. D.</namePart>
+    <namePart type="family">Burkert</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">D. S.</namePart>
+    <namePart type="family">Carman</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">A.</namePart>
+    <namePart type="family">Celentano</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">S.</namePart>
+    <namePart type="family">Chandavar</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">G.</namePart>
+    <namePart type="family">Charles</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">J.-P.</namePart>
+    <namePart type="family">Chen</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">T.</namePart>
+    <namePart type="family">Chetry</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Seonho</namePart>
+    <namePart type="family">Choi</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">G.</namePart>
+    <namePart type="family">Ciullo</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">L.</namePart>
+    <namePart type="family">Clark</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">L.</namePart>
+    <namePart type="family">Colaneri</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">P. L.</namePart>
+    <namePart type="family">Cole</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">N.</namePart>
+    <namePart type="family">Compton</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">M.</namePart>
+    <namePart type="family">Contalbrigo</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">V.</namePart>
+    <namePart type="family">Crede</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">A.</namePart>
+    <namePart type="family">D'Angelo</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">N.</namePart>
+    <namePart type="family">Dashyan</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">R.</namePart>
+    <namePart type="family">De Vita</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">E.</namePart>
+    <namePart type="family">De Sanctis</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">C.</namePart>
+    <namePart type="family">Djalali</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">G. E.</namePart>
+    <namePart type="family">Dodge</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">R.</namePart>
+    <namePart type="family">Dupre</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">H.</namePart>
+    <namePart type="family">Egiyan</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">A.</namePart>
+    <namePart type="family">El Alaoui</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">L.</namePart>
+    <namePart type="family">Elouadrhiri</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">P.</namePart>
+    <namePart type="family">Eugenio</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">E.</namePart>
+    <namePart type="family">Fanchini</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">G.</namePart>
+    <namePart type="family">Fedotov</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">R.</namePart>
+    <namePart type="family">Fersch</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">A.</namePart>
+    <namePart type="family">Filippi</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">J. A.</namePart>
+    <namePart type="family">Fleming</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">N.</namePart>
+    <namePart type="family">Gevorgyan</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Y.</namePart>
+    <namePart type="family">Ghandilyan</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">G. P.</namePart>
+    <namePart type="family">Gilfoyle</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">K. L.</namePart>
+    <namePart type="family">Giovanetti</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">F. X.</namePart>
+    <namePart type="family">Girod</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">C.</namePart>
+    <namePart type="family">Gleason</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">E.</namePart>
+    <namePart type="family">Golovach</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">R. W.</namePart>
+    <namePart type="family">Gothe</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">K. A.</namePart>
+    <namePart type="family">Griffioen</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">M.</namePart>
+    <namePart type="family">Guidal</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">N.</namePart>
+    <namePart type="family">Guler</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">L.</namePart>
+    <namePart type="family">Guo</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">C.</namePart>
+    <namePart type="family">Hanretty</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">N.</namePart>
+    <namePart type="family">Harrison</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">M.</namePart>
+    <namePart type="family">Hattawy</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">K.</namePart>
+    <namePart type="family">Hicks</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">M.</namePart>
+    <namePart type="family">Holtrop</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">S. M.</namePart>
+    <namePart type="family">Hughes</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Y.</namePart>
+    <namePart type="family">Ilieva</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">D. G.</namePart>
+    <namePart type="family">Ireland</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">B. S.</namePart>
+    <namePart type="family">Ishkhanov</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">E. L.</namePart>
+    <namePart type="family">Isupov</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">D.</namePart>
+    <namePart type="family">Jenkins</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">H.</namePart>
+    <namePart type="family">Jiang</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">H. S.</namePart>
+    <namePart type="family">Jo</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">S.</namePart>
+    <namePart type="family">Joosten</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">D.</namePart>
+    <namePart type="family">Keller</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">G.</namePart>
+    <namePart type="family">Khachatryan</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">M.</namePart>
+    <namePart type="family">Khandaker</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">A.</namePart>
+    <namePart type="family">Kim</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">W.</namePart>
+    <namePart type="family">Kim</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">F. J.</namePart>
+    <namePart type="family">Klein</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">V.</namePart>
+    <namePart type="family">Kubarovsky</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">L.</namePart>
+    <namePart type="family">Lanza</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">P.</namePart>
+    <namePart type="family">Lenisa</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">K.</namePart>
+    <namePart type="family">Livingston</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">I. J. D.</namePart>
+    <namePart type="family">MacGregor</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">N.</namePart>
+    <namePart type="family">Markov</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">B.</namePart>
+    <namePart type="family">McKinnon</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">M.</namePart>
+    <namePart type="family">Mirazita</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">V.</namePart>
+    <namePart type="family">Mokeev</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">A.</namePart>
+    <namePart type="family">Movsisyan</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">E.</namePart>
+    <namePart type="family">Munevar</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">C. Munoz</namePart>
+    <namePart type="family">Camacho</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">G.</namePart>
+    <namePart type="family">Murdoch</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">P.</namePart>
+    <namePart type="family">Nadel-Turonski</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">L. A.</namePart>
+    <namePart type="family">Net</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">A.</namePart>
+    <namePart type="family">Ni</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">S.</namePart>
+    <namePart type="family">Niccolai</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">G.</namePart>
+    <namePart type="family">Niculescu</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">I.</namePart>
+    <namePart type="family">Niculescu</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">M.</namePart>
+    <namePart type="family">Osipenko</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">A. I.</namePart>
+    <namePart type="family">Ostrovidov</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">M.</namePart>
+    <namePart type="family">Paolone</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">R.</namePart>
+    <namePart type="family">Paremuzyan</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">K.</namePart>
+    <namePart type="family">Park</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">E.</namePart>
+    <namePart type="family">Pasyuk</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">P.</namePart>
+    <namePart type="family">Peng</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">S.</namePart>
+    <namePart type="family">Pisano</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">O.</namePart>
+    <namePart type="family">Pogorelko</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">J. W.</namePart>
+    <namePart type="family">Price</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">A. J. R.</namePart>
+    <namePart type="family">Puckett</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">B. A.</namePart>
+    <namePart type="family">Raue</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">A.</namePart>
+    <namePart type="family">Rizzo</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">G.</namePart>
+    <namePart type="family">Rosner</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">P.</namePart>
+    <namePart type="family">Rossi</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">P.</namePart>
+    <namePart type="family">Roy</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">F.</namePart>
+    <namePart type="family">Sabatie</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">C.</namePart>
+    <namePart type="family">Salgado</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">R. A.</namePart>
+    <namePart type="family">Schumacher</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Y. G.</namePart>
+    <namePart type="family">Sharabian</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Iu</namePart>
+    <namePart type="family">Skorodumina</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">G. D.</namePart>
+    <namePart type="family">Smith</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">D.</namePart>
+    <namePart type="family">Sokhan</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">N.</namePart>
+    <namePart type="family">Sparveris</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">I.</namePart>
+    <namePart type="family">Stankovic</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">I. I.</namePart>
+    <namePart type="family">Strakovsky</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">S.</namePart>
+    <namePart type="family">Strauch</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">M.</namePart>
+    <namePart type="family">Taiuti</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Ye</namePart>
+    <namePart type="family">Tian</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">M.</namePart>
+    <namePart type="family">Ungaro</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">H.</namePart>
+    <namePart type="family">Voskanyan</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">E.</namePart>
+    <namePart type="family">Voutier</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">N. K.</namePart>
+    <namePart type="family">Walford</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">D. P.</namePart>
+    <namePart type="family">Watts</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">X.</namePart>
+    <namePart type="family">Wei</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">L. B.</namePart>
+    <namePart type="family">Weinstein</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">M. H.</namePart>
+    <namePart type="family">Wood</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">N.</namePart>
+    <namePart type="family">Zachariou</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">J.</namePart>
+    <namePart type="family">Zhang</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">I.</namePart>
+    <namePart type="family">Zonta</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2016-10-19</dateIssued>
+  </originInfo>
+  <abstract>We report measurements of target- and double-spin asymmetries for the exclusive channel (e) over right arrow (p) over right arrow -&gt; ep(+)(n) in the nucleon resonance region at Jefferson Lab using the CEBAF Large Acceptance Spectrometer (CLAS). These asymmetries were extracted from data obtained using a longitudinally polarized NH3 target and a longitudinally polarized electron beam with energies 1.1, 1.3, 2.0, 2.3, and 3.0 GeV. The new results are consistent with previous CLAS publications but are extended to a low Q(2) range from 0.0065 to 0.35 (GeV/c)(2). The Q(2) access was made possible by a custom-built Cherenkov detector that allowed the detection of electrons for scattering angles as low as 6 degrees. These results are compared with the unitary isobar models JANR and MAID, the partial-wave analysis prediction from SAID, and the dynamic model DMT. In many kinematic regions our results, in particular results on the target asymmetry, help to constrain the polarization-dependent components of these models.</abstract>
+  <identifier type="IID">FSU_libsubv1_wos_000386170700004</identifier>
+  <identifier type="DOI">10.1103/PhysRevC.94.045206</identifier>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Physical Review C</title>
+    </titleInfo>
+    <identifier type="issn">2469-9985</identifier>
+    <part>
+      <detail type="volume">
+        <number>94</number>
+        <caption>vol.</caption>
+      </detail>
+      <detail type="issue">
+        <number>4</number>
+        <caption>iss.</caption>
+      </detail>
+      <extent unit="page">
+        <start>45206</start>
+      </extent>
+    </part>
+  </relatedItem>
+  <note displayLabel="Publication Note">The publisher's version of record is available at https://doi.org/10.1103/PhysRevC.94.045206</note>
+  <extension>
+    <flvc:flvc>
+      <flvc:owningInstitution>FSU</flvc:owningInstitution>
+      <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+    </flvc:flvc>
+  </extension>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="rdacontent">text</genre>
+  <language>
+    <languageTerm type="text">English</languageTerm>
+    <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form authority="rdamedia" type="RDA media terms">computer</form>
+    <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+    <extent>1 online resource</extent>
+    <digitalOrigin>born digital</digitalOrigin>
+    <internetMediaType>application/pdf</internetMediaType>
+  </physicalDescription>
+  <recordInfo>
+    <recordCreationDate encoding="w3cdtf">2017-04-19</recordCreationDate>
+    <descriptionStandard>rda</descriptionStandard>
+  </recordInfo>
+</mods>

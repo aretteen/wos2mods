@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:flvc="info:flvc/manifest/v1" xsi:schemaLocation="http://www.loc.gov/standards/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd" version="3.4">
+  <titleInfo lang="eng">
+    <title>Estimation Of Net Surface Radiation Using Eddy Flux Tower Data Over A Tropical Mangrove Forest Of Sundarban, West Bengal</title>
+  </titleInfo>
+  <name type="personal" authority="local">
+    <namePart type="given">D. V.</namePart>
+    <namePart type="family">Mahalakshmi</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Arati</namePart>
+    <namePart type="family">Paul</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">D.</namePart>
+    <namePart type="family">Dutta</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">M. M.</namePart>
+    <namePart type="family">Ali</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">V. K.</namePart>
+    <namePart type="family">Dadhwal</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">R. Suraj</namePart>
+    <namePart type="family">Reddy</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">C. S.</namePart>
+    <namePart type="family">Jha</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">J. R.</namePart>
+    <namePart type="family">Sharma</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
+  </originInfo>
+  <abstract>In this study, net surface radiation (R-n) was estimated using artificial neural network (ANN) and Linear Model (LM). Then, estimated R-n with both the models (ANN and LM) were compared with measured R-n from eddy covariance (EC) flux tower. The routinely measured meteorological variables namely air temperature, relative humidity and wind velocity were used as input to the ANN and global solar radiation as input to the LM. All the input data are from the EC flux tower. Sensitivity analysis of ANN with all the meteorological variables is carried out by excluding one by one meteorological variable. The validation results demonstrated that, ANN and LM estimated R-n values were in good agreement with the measured values, with root mean square error (RMSE) varying between 21.63 W/m(2) and 34.94 W/m(2), mean absolute error (MAE) between 17.93 W/m2 and 22.28 W/m(2) and coefficient of residual mass (CRM) between -0.007 and -0.04 respectively. Further we have computed modelling efficiency (0.97 for ANN and 0.99 for LM) and coefficient of determination (R-2 = 0.97 for ANN and 0.99 for LM) for both the models. Even though both the models could predict R-n successfully, ANN was better in terms of minimum number of routinely measured meteorological variables as input. The results of the ANN sensitivity analysis indicated that air temperatuere is the more important parameter followed by relative humidity, wind speed and wind direction.</abstract>
+  <identifier type="IID">FSU_libsubv1_wos_000381162400001</identifier>
+  <identifier type="DOI">10.15233/gfz.2016.33.5</identifier>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Geofizika</title>
+    </titleInfo>
+    <identifier type="issn">0352-3659</identifier>
+    <part>
+      <detail type="volume">
+        <number>33</number>
+        <caption>vol.</caption>
+      </detail>
+      <detail type="issue">
+        <number>1</number>
+        <caption>iss.</caption>
+      </detail>
+      <extent unit="page">
+        <start>1</start>
+        <end>14</end>
+      </extent>
+    </part>
+  </relatedItem>
+  <note displayLabel="Keywords">artificial neural network, artificial neural-networks, china, eddy   flux tower, energy-balance archive, global solar-radiation, land, linear model, models, net surface radiation, photosynthetically   active radiation, Turkey</note>
+  <note displayLabel="Publication Note">The publisher's version of record is available at https://doi.org/10.15233/gfz.2016.33.5</note>
+  <extension>
+    <flvc:flvc>
+      <flvc:owningInstitution>FSU</flvc:owningInstitution>
+      <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+    </flvc:flvc>
+  </extension>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="rdacontent">text</genre>
+  <language>
+    <languageTerm type="text">English</languageTerm>
+    <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form authority="rdamedia" type="RDA media terms">computer</form>
+    <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+    <extent>1 online resource</extent>
+    <digitalOrigin>born digital</digitalOrigin>
+    <internetMediaType>application/pdf</internetMediaType>
+  </physicalDescription>
+  <recordInfo>
+    <recordCreationDate encoding="w3cdtf">2017-04-19</recordCreationDate>
+    <descriptionStandard>rda</descriptionStandard>
+  </recordInfo>
+</mods>

@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:flvc="info:flvc/manifest/v1" xsi:schemaLocation="http://www.loc.gov/standards/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd" version="3.4">
+  <titleInfo lang="eng">
+    <title>Evaluating Alternative Measures Of Institutional Protection Of Private Property And Their Relative Ability To Predict Economic Development</title>
+  </titleInfo>
+  <name type="personal" authority="local">
+    <namePart type="given">Daniel L.</namePart>
+    <namePart type="family">Bennett</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Hugo J.</namePart>
+    <namePart type="family">Faria</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">James D.</namePart>
+    <namePart type="family">Gwartney</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Daniel R.</namePart>
+    <namePart type="family">Morales</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
+  </originInfo>
+  <abstract>A growing body of research suggests that private property rights are an important determinant of economic development. This paper assesses five commonly used measures of property rights and their relative ability to predict economic development. The International Country Risk Guide risk of expropriation and World Governance Indicators rule of law measures, as well as property rights indices from the Fraser Institute and Heritage Foundation, are all positively and robustly associated with GDP per capita. Polity IV's executive constraints measure has a statistically and economically weaker impact. This paper also addresses the methodological strengths and weaknesses of each measure to guide researchers in selecting an appropriate measure for empirical studies.</abstract>
+  <identifier type="IID">FSU_libsubv1_wos_000384236500004</identifier>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Journal of Private Enterprise</title>
+    </titleInfo>
+    <identifier type="issn">0890-913X</identifier>
+    <part>
+      <detail type="volume">
+        <number>31</number>
+        <caption>vol.</caption>
+      </detail>
+      <detail type="issue">
+        <number>2</number>
+        <caption>iss.</caption>
+      </detail>
+      <extent unit="page">
+        <start>57</start>
+        <end>78</end>
+      </extent>
+    </part>
+  </relatedItem>
+  <note displayLabel="Keywords">comparative economic development, economic freedom, geography, growth, indicators, institutional measurement   methodology, legal institutions, origins, primacy, private property rights, rights, rule, rule of law, veto players</note>
+  <extension>
+    <flvc:flvc>
+      <flvc:owningInstitution>FSU</flvc:owningInstitution>
+      <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+    </flvc:flvc>
+  </extension>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="rdacontent">text</genre>
+  <language>
+    <languageTerm type="text">English</languageTerm>
+    <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form authority="rdamedia" type="RDA media terms">computer</form>
+    <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+    <extent>1 online resource</extent>
+    <digitalOrigin>born digital</digitalOrigin>
+    <internetMediaType>application/pdf</internetMediaType>
+  </physicalDescription>
+  <recordInfo>
+    <recordCreationDate encoding="w3cdtf">2017-04-19</recordCreationDate>
+    <descriptionStandard>rda</descriptionStandard>
+  </recordInfo>
+</mods>

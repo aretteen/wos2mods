@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:flvc="info:flvc/manifest/v1" xsi:schemaLocation="http://www.loc.gov/standards/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd" version="3.4">
+  <titleInfo lang="eng">
+    <title>Radiative Decay Of Neutron-unbound Intruder States In O-19</title>
+  </titleInfo>
+  <name type="personal" authority="local">
+    <namePart type="given">R.</namePart>
+    <namePart type="family">Dungan</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">S. L.</namePart>
+    <namePart type="family">Tabor</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">Vandana</namePart>
+    <namePart type="family">Tripathi</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">A.</namePart>
+    <namePart type="family">Volya</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">K.</namePart>
+    <namePart type="family">Kravvaris</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">B.</namePart>
+    <namePart type="family">Abromeit</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">D. D.</namePart>
+    <namePart type="family">Caussyn</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">S.</namePart>
+    <namePart type="family">Morrow</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">J. J.</namePart>
+    <namePart type="family">Parker</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">P.-L.</namePart>
+    <namePart type="family">Tai</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">J. M.</namePart>
+    <namePart type="family">VonMoss</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2016-02-22</dateIssued>
+  </originInfo>
+  <abstract>The Be-9(C-14, alpha gamma) reaction at E-Lab = 30 and 35 MeV was used to study excited states of O-19. The Florida State University (FSU) gamma detector array was used to detect gamma radiation in coincidence with charged particles detected and identified with a silicon Delta E-E particle telescope. gamma decays have been observed for the first time from six states ranging from 368 to 2147 keV above the neutron separation energy (S-n = 3962 keV) in O-19. The gamma-decaying states are interspersed among states previously observed to decay by neutron emission. The ability of electromagnetic decay to compete successfully with neutron decay is explained in terms of neutron angular momentum barriers and small spectroscopic factors implying higher spin and complex structure for these intruder states. These results illustrate the need for complementary experimental approaches to best illuminate the complete nuclear structure.</abstract>
+  <identifier type="IID">FSU_libsubv1_wos_000370798600001</identifier>
+  <identifier type="DOI">10.1103/PhysRevC.93.021302</identifier>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Physical Review C</title>
+    </titleInfo>
+    <identifier type="issn">2469-9985</identifier>
+    <part>
+      <detail type="volume">
+        <number>93</number>
+        <caption>vol.</caption>
+      </detail>
+      <detail type="issue">
+        <number>2</number>
+        <caption>iss.</caption>
+      </detail>
+      <extent unit="page">
+        <start>21302</start>
+      </extent>
+    </part>
+  </relatedItem>
+  <note displayLabel="Keywords">shell-model</note>
+  <note displayLabel="Publication Note">The publisher's version of record is available at https://doi.org/10.1103/PhysRevC.93.021302</note>
+  <extension>
+    <flvc:flvc>
+      <flvc:owningInstitution>FSU</flvc:owningInstitution>
+      <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+    </flvc:flvc>
+  </extension>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="rdacontent">text</genre>
+  <language>
+    <languageTerm type="text">English</languageTerm>
+    <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form authority="rdamedia" type="RDA media terms">computer</form>
+    <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+    <extent>1 online resource</extent>
+    <digitalOrigin>born digital</digitalOrigin>
+    <internetMediaType>application/pdf</internetMediaType>
+  </physicalDescription>
+  <recordInfo>
+    <recordCreationDate encoding="w3cdtf">2017-04-19</recordCreationDate>
+    <descriptionStandard>rda</descriptionStandard>
+  </recordInfo>
+</mods>

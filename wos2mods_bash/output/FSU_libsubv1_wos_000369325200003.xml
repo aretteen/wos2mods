@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:flvc="info:flvc/manifest/v1" xsi:schemaLocation="http://www.loc.gov/standards/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd" version="3.4">
+  <titleInfo lang="eng">
+    <title>Higgs Boson Production In Association With B Jets In The Powheg Box</title>
+  </titleInfo>
+  <name type="personal" authority="local">
+    <namePart type="given">B.</namePart>
+    <namePart type="family">Jaeger</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">L.</namePart>
+    <namePart type="family">Reina</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">D.</namePart>
+    <namePart type="family">Wackeroth</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2016-01-26</dateIssued>
+  </originInfo>
+  <abstract>The hadronic production of a Higgs boson (H) in association with b jets will play an important role in investigating the Higgs-boson couplings to Standard Model (SM) particles during Run II of the CERN Large Hadron Collider, and could in particular reveal the presence of anomalies in the assumed hierarchy of Yukawa couplings to the third-generation quarks. A very high degree of accuracy in the theoretical description of this process is crucial to implement the rich physics program that could lead to either direct or indirect evidence of new physics from Higgs-boson measurements. Aiming for accuracy in the theoretical modeling of H + b-jet production, we have interfaced the analytic next-to-leading-order QCD calculation of Hb (b) over bar production with parton-shower Monte Carlo event generators in the POWHEG BOX framework. In this paper we describe the most relevant aspects of the implementation and present results for the production of H + 1b jet, H + 2b jets, and H with no tagged b jets, in the form of kinematic distributions of the Higgs boson, of the b jets, and of the non-b jets, at the 13 TeV Large Hadron Collider. The corresponding code is part of the public release of the POWHEG BOX.</abstract>
+  <identifier type="IID">FSU_libsubv1_wos_000369325200003</identifier>
+  <identifier type="DOI">10.1103/PhysRevD.93.014030</identifier>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Physical Review D</title>
+    </titleInfo>
+    <identifier type="issn">2470-0010</identifier>
+    <part>
+      <detail type="volume">
+        <number>93</number>
+        <caption>vol.</caption>
+      </detail>
+      <detail type="issue">
+        <number>1</number>
+        <caption>iss.</caption>
+      </detail>
+      <extent unit="page">
+        <start>14030</start>
+      </extent>
+    </part>
+  </relatedItem>
+  <note displayLabel="Keywords">collisions, quarks, search, tev</note>
+  <note displayLabel="Publication Note">The publisher's version of record is available at https://doi.org/10.1103/PhysRevD.93.014030</note>
+  <extension>
+    <flvc:flvc>
+      <flvc:owningInstitution>FSU</flvc:owningInstitution>
+      <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+    </flvc:flvc>
+  </extension>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="rdacontent">text</genre>
+  <language>
+    <languageTerm type="text">English</languageTerm>
+    <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form authority="rdamedia" type="RDA media terms">computer</form>
+    <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+    <extent>1 online resource</extent>
+    <digitalOrigin>born digital</digitalOrigin>
+    <internetMediaType>application/pdf</internetMediaType>
+  </physicalDescription>
+  <recordInfo>
+    <recordCreationDate encoding="w3cdtf">2017-04-19</recordCreationDate>
+    <descriptionStandard>rda</descriptionStandard>
+  </recordInfo>
+</mods>

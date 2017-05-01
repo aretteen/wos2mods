@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:flvc="info:flvc/manifest/v1" xsi:schemaLocation="http://www.loc.gov/standards/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd" version="3.4">
+  <titleInfo lang="eng">
+    <title>Constraints On Large-x Parton Distributions From New Weak Boson Production And Deep-inelastic Scattering Data</title>
+  </titleInfo>
+  <name type="personal" authority="local">
+    <namePart type="given">A.</namePart>
+    <namePart type="family">Accardi</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">L. T.</namePart>
+    <namePart type="family">Brady</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">W.</namePart>
+    <namePart type="family">Melnitchouk</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">J. F.</namePart>
+    <namePart type="family">Owens</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="local">
+    <namePart type="given">N.</namePart>
+    <namePart type="family">Sato</namePart>
+    <role>
+      <roleTerm authority="rda" type="text">author</roleTerm>
+      <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2016-06-20</dateIssued>
+  </originInfo>
+  <abstract>We present a new set of leading-twist parton distribution functions, referred to as "CJ15," which take advantage of developments in the theoretical treatment of nuclear corrections as well as new data. The analysis includes, for the first time, data on the free neutron structure function from Jefferson Lab and new high-precision charged lepton and W-boson asymmetry data from Fermilab. These significantly reduce the uncertainty on the d/u ratio at large values of x and provide new insights into the partonic structure of bound nucleons.</abstract>
+  <identifier type="IID">FSU_libsubv1_wos_000378203800004</identifier>
+  <identifier type="DOI">10.1103/PhysRevD.93.114017</identifier>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Physical Review D</title>
+    </titleInfo>
+    <identifier type="issn">2470-0010</identifier>
+    <part>
+      <detail type="volume">
+        <number>93</number>
+        <caption>vol.</caption>
+      </detail>
+      <detail type="issue">
+        <number>11</number>
+        <caption>iss.</caption>
+      </detail>
+      <extent unit="page">
+        <start>114017</start>
+      </extent>
+    </part>
+  </relatedItem>
+  <note displayLabel="Keywords">cross-sections, deuteron structure functions, emc, heavy quarks, model, neutron   structure, nuclear-structure functions, pdfs, proton, qcd analysis</note>
+  <note displayLabel="Publication Note">The publisher's version of record is available at https://doi.org/10.1103/PhysRevD.93.114017</note>
+  <extension>
+    <flvc:flvc>
+      <flvc:owningInstitution>FSU</flvc:owningInstitution>
+      <flvc:submittingInstitution>FSU</flvc:submittingInstitution>
+    </flvc:flvc>
+  </extension>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="rdacontent">text</genre>
+  <language>
+    <languageTerm type="text">English</languageTerm>
+    <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form authority="rdamedia" type="RDA media terms">computer</form>
+    <form authority="rdacarrier" type="RDA carrier terms">online resource</form>
+    <extent>1 online resource</extent>
+    <digitalOrigin>born digital</digitalOrigin>
+    <internetMediaType>application/pdf</internetMediaType>
+  </physicalDescription>
+  <recordInfo>
+    <recordCreationDate encoding="w3cdtf">2017-04-19</recordCreationDate>
+    <descriptionStandard>rda</descriptionStandard>
+  </recordInfo>
+</mods>

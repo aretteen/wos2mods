@@ -20,7 +20,7 @@
         // directory as this wos2mods.php file and then just put the
         // filename between the quotes.
         // Example: $filePath = "WoS_Endnote_12-14-16_OASelections-xlsx.txt";
-        $filePath = "WoS_Endnote_12-14-16_OASelections-xlsx.txt";
+        $filePath = "WOS_FinalDraftSet-xlsx.txt";
         ////////////////
         //
         // SCRIPT START
