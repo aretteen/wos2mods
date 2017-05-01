@@ -39,18 +39,18 @@
             $xml->addChild('titleInfo');
             $xml->titleInfo->addAttribute('lang','eng');
             if($key->{'Nonsort An'}){
-                $xml->titleInfo->addChild('nonsort',"An");
+                $xml->titleInfo->addChild('nonSort',"An");
             }
             if($key->{'Nonsort A'}){
-                $xml->titleInfo->addChild('nonsort',"A");
+                $xml->titleInfo->addChild('nonSort',"A");
             }
             if($key->{'Nonsort The'}){
-                $xml->titleInfo->addChild('nonsort',"The");
+                $xml->titleInfo->addChild('nonSort',"The");
             }
             $xml->titleInfo->addChild('title', htmlspecialchars($key->{'Base Title'}));
 
             if($key->Subtitle){
-                $xml->titleInfo->addChild('subtitle', htmlspecialchars($key->Subtitle));
+                $xml->titleInfo->addChild('subTitle', htmlspecialchars($key->Subtitle));
             }
             
             // Build Author
