@@ -33,20 +33,20 @@
             $xml->titleInfo->addAttribute('lang','eng');
             if($key->{'Nonsort An'}){
                 $xml->titleInfo->addChild('nonSort',"An");
-				$newTitle = substr($newTitle, 2);
+				$newTitle = trim(substr($newTitle, 2));
             }
             if($key->{'Nonsort A'}){
                 $xml->titleInfo->addChild('nonSort',"A");
-				$newTitle = substr($newTitle, 1);
+				$newTitle = trim(substr($newTitle, 1));
             }
             if($key->{'Nonsort The'}){
                 $xml->titleInfo->addChild('nonSort',"The");
-				$newTitle = substr($newTitle, 3);
+				$newTitle = trim(substr($newTitle, 3));
             }
             $xml->titleInfo->addChild('title', $newTitle);
 
             if($key->Subtitle){
-                $xml->titleInfo->addChild('subTitle', htmlspecialchars($key->Subtitle));
+                $xml->titleInfo->addChild('subTitle', trim(htmlspecialchars($key->Subtitle)));
             }
             
             // Build Author
