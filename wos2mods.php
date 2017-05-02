@@ -35,19 +35,22 @@
             $xml = new SimpleXMLElement('<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:etd="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:flvc="info:flvc/manifest/v1" xsi:schemaLocation="http://www.loc.gov/standards/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd" version="3.4"></mods>');
             
             // Build Title
-            
+            $newTitle = htmlspecialchars($key->{'Base Title'});
             $xml->addChild('titleInfo');
             $xml->titleInfo->addAttribute('lang','eng');
             if($key->{'Nonsort An'}){
                 $xml->titleInfo->addChild('nonSort',"An");
+				$newTitle = substr($newTitle, 2);
             }
             if($key->{'Nonsort A'}){
                 $xml->titleInfo->addChild('nonSort',"A");
+				$newTitle = substr($newTitle, 1);
             }
             if($key->{'Nonsort The'}){
                 $xml->titleInfo->addChild('nonSort',"The");
+				$newTitle = substr($newTitle, 3);
             }
-            $xml->titleInfo->addChild('title', htmlspecialchars($key->{'Base Title'}));
+            $xml->titleInfo->addChild('title', $newTitle);
 
             if($key->Subtitle){
                 $xml->titleInfo->addChild('subTitle', htmlspecialchars($key->Subtitle));
