@@ -182,8 +182,17 @@
             $xml->addChild('recordInfo');
             $xml->recordInfo->addChild('recordCreationDate', date('Y-m-d'))->addAttribute('encoding', 'w3cdtf');
             $xml->recordInfo->addChild('descriptionStandard', 'rda');
-                
-            
+			
+			/*
+			// BUILD PURL
+			// COMMENT OUT IF USING ISLANDORA ZIP LOADER, WHICH DOES THIS PART ON INGEST
+			//
+			
+			$purlLink = "http://purl.flvc.org/fsu/fd/" . $key->IID;
+			$xml->addChild('location');
+			$xml->location->addAttribute('displayLabel','purl');
+			$xml->location->addChild('url',$purlLink);                
+            */
         //
         // WRITE MODS FILE
         //
